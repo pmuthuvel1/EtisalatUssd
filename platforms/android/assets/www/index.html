@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta charset="utf-8">
+<title>Etisalat - Ussd Helper</title>
+<link rel="stylesheet" href="css/app.css">
+<link rel="stylesheet" href="css/themes/etisalat-ussd.min.css" />
+<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+<link rel="stylesheet"
+	href="http://code.jquery.com/mobile/1.4.4/jquery.mobile.structure-1.4.4.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script
+	src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
+</head>
+<body>
+
+	<div data-role='page' id='home' data-theme='a'>
+		<div data-role='header'>
+			<h1>Etisalat</h1>
+		</div>
+		<div data-role='content'>
+			<ul data-role='listview' data-inset='true'>
+				<li data-inline='true'><a href='tel:*170*1%23'
+					data-rel='external'>Data Balance Inquiry </a></li>
+				<li><a href='#L21'>Smartphone Plans</a></li>
+				<li><a href='#L31'>My Plan Balance Inquiry</a></li>
+				<li><a href='#L41'>Social Data Package</a></li>
+				<li><a href='#L51'>Black Berry Services</a></li>
+				<li><a href='#L61'>Mobile Internet Services</a></li>
+				<li><a href='#L77'>Mobile Broadband Services</a></li>
+			</ul>
+		</div>
+		<div data-role='footer' data-position='fixed'></div>
+	</div>
+	<div data-role='page' id='L21' data-theme='b'>
+		<div data-role='header'>
+			<h1>Smartphone Plans</h1>
+			<a href='#home' data-icon='home' data-iconpos='notext'
+				data-direction='reverse'>Home</a>
+		</div>
+		<div data-role='content'>
+			<ul data-role='listview' data-inset='true'>
+				<li><a href='#L211'>iPhone Plans</a></li>
+				<li><a href='#L221'>Samsung Plans</a></li>
+				<li><a href='#L231'>Other Plans</a></li>
+			</ul>
+		</div>
+		<div data-role='footer' data-position='fixed'></div>
+	</div>
+	<div data-role='page' id='L31' data-theme='b'>
+		<div data-role='header'>
+			<h1>My Plan Balance Inquiry</h1>
+			<a href='#home' data-icon='home' data-iconpos='notext'
+				data-direction='reverse'>Home</a>
+		</div>
+		<div data-role='content'>
+			<ul data-role='listview' data-inset='true'>
+				<li data-inline='true'><a href='tel:*170*3*1%23'
+					data-rel='external'>Current Data and bonus usage Inquiry </a></li>
+				<li><a href='#L321'>Carried over minutes Inquiry</a></li>
+			</ul>
+		</div>
+		<div data-role='footer' data-position='fixed'></div>
+	</div>
+	<div data-role='page' id='L41' data-theme='b'>
+		<div data-role='header'>
+			<h1>Social Data Package</h1>
+			<a href='#home' data-icon='home' data-iconpos='notext'
+				data-direction='reverse'>Home</a>
+		</div>
+		<div data-role='content'>
+			<ul data-role='listview' data-inset='true'>
+				<li><a href='#L411'>For Social Data Pacakges for
+						Smartphones</a></li>
+			</ul>
+		</div>
+		<div data-role='footer' data-position='fixed'></div>
+	</div>
+	<div data-role='page' id='L51' data-theme='b'>
+		<div data-role='header'>
+			<h1>Black Berry Services</h1>
+			<a href='#home' data-icon='home' data-iconpos='notext'
+				data-direction='reverse'>Home</a>
+		</div>
+		<div data-role='content'>
+			<ul data-role='listview' data-inset='true'>
+				<li data-inline='true'><a href='tel:*170*5*1%23'
+					data-rel='external'>Blackberry Global </a></li>
+				<li><a href='#L521'>Blackberry Unlimited</a></li>
+				<li><a href='#L521'>Blackberry Complete</a></li>
+				<li><a href='#L541'>Blackberry Social Unlimited</a></li>
+				<li data-inline='true'><a href='tel:*170*5*5%23'
+					data-rel='external'>Special offers </a></li>
+			</ul>
+		</div>
+		<div data-role='footer' data-position='fixed'></div>
+	</div>
+	<div data-role='page' id='L61' data-theme='b'>
+		<div data-role='header'>
+			<h1>Mobile Internet Services</h1>
+			<a href='#home' data-icon='home' data-iconpos='notext'
+				data-direction='reverse'>Home</a>
+		</div>
+		<div data-role='content'>
+			<ul data-role='listview' data-inset='true'>
+				<li data-inline='true'><a href='tel:*170*6*1%23'
+					data-rel='external'>Auto Renewal Data Plans </a></li>
+				<li data-inline='true'><a href='tel:*170*6*1%23'
+					data-rel='external'>One time Subscription </a></li>
+			</ul>
+		</div>
+		<div data-role='footer' data-position='fixed'></div>
+	</div>
+	<div data-role='page' id='L77' data-theme='b'>
+		<div data-role='header'>
+			<h1>Mobile Broadband Services</h1>
+			<a href='#home' data-icon='home' data-iconpos='notext'
+				data-direction='reverse'>Home</a>
+		</div>
+		<div data-role='content'>
+			<ul data-role='listview' data-inset='true'>
+				<li><a href='#L61'>Mobile Broadband Services</a></li>
+				<li><a href='#L781'>Premium Number Plan</a></li>
+				<li><a href='#L791'>PAYG</a></li>
+				<li data-inline='true'><a href='tel:*170*7*10%23'
+					data-rel='external'>Know My Number </a></li>
+			</ul>
+		</div>
+		<div data-role='footer' data-position='fixed'></div>
+	</div>
+	<div data-role='page' id='L211' data-theme='c'>
+		<div data-role='header'>
+			<h1>iPhone Plans</h1>
+			<a href='#home' data-icon='home' data-iconpos='notext'
+				data-direction='reverse'>Home</a>
+		</div>
+		<div data-role='content'>
+			<ul data-role='listview' data-inset='true'>
+				<li><a href='#L2111'>iPhone 4S Plans</a></li>
+				<li data-inline='true'><a href='tel:*170*2*1*2%23'
+					data-rel='external'>iPhone5 Plans </a></li>
+				<li><a href='#L2131'>iPhone5S Plans</a></li>
+				<li data-inline='true'><a href='tel:*170*2*1*4%23'
+					data-rel='external'>iPhone5C Plans </a></li>
+			</ul>
+		</div>
+		<div data-role='footer' data-position='fixed'></div>
+	</div>
+	<div data-role='page' id='L221' data-theme='c'>
+		<div data-role='header'>
+			<h1>Samsung Plans</h1>
+			<a href='#home' data-icon='home' data-iconpos='notext'
+				data-direction='reverse'>Home</a>
+		</div>
+		<div data-role='content'>
+			<ul data-role='listview' data-inset='true'>
+				<li><a href='#L2211'>Samsung S4</a></li>
+				<li><a href='#L2221'>Samsung S4 Active</a></li>
+				<li data-inline='true'><a href='tel:*170*2*2*3%23'
+					data-rel='external'>Samsung S4 Mini </a></li>
+				<li><a href='#L2241'>Samsung S3 LTE</a></li>
+				<li data-inline='true'><a href='tel:*170*2*2*5%23'
+					data-rel='external'>Samsung Note 3 </a></li>
+				<li data-inline='true'><a href='tel:*170*2*2*6%23'
+					data-rel='external'>Samsung Zoom </a></li>
+			</ul>
+		</div>
+		<div data-role='footer' data-position='fixed'></div>
+	</div>
+	<div data-role='page' id='L231' data-theme='c'>
+		<div data-role='header'>
+			<h1>Other Plans</h1>
+			<a href='#home' data-icon='home' data-iconpos='notext'
+				data-direction='reverse'>Home</a>
+		</div>
+		<div data-role='content'>
+			<ul data-role='listview' data-inset='true'>
+				<li data-inline='true'><a href='tel:*170*2*3*1%23'
+					data-rel='external'>Huawei plans </a></li>
+			</ul>
+		</div>
+		<div data-role='footer' data-position='fixed'></div>
+	</div>
+	<div data-role='page' id='L321' data-theme='c'>
+		<div data-role='header'>
+			<h1>Carried over minutes Inquiry</h1>
+			<a href='#home' data-icon='home' data-iconpos='notext'
+				data-direction='reverse'>Home</a>
+		</div>
+		<div data-role='content'>
+			<ul data-role='listview' data-inset='true'>
+				<li data-inline='true'><a href='tel:*170*3*2*1%23'
+					data-rel='external'>IPhone Plans </a></li>
+				<li data-inline='true'><a href='tel:*170*3*2*2%23'
+					data-rel='external'>Samsung Plans </a></li>
+				<li data-inline='true'><a href='tel:*170*3*2*3%23'
+					data-rel='external'>Other Plans </a></li>
+			</ul>
+		</div>
+		<div data-role='footer' data-position='fixed'></div>
+	</div>
+	<div data-role='page' id='L411' data-theme='c'>
+		<div data-role='header'>
+			<h1>For Social Data Pacakges for Smartphones</h1>
+			<a href='#home' data-icon='home' data-iconpos='notext'
+				data-direction='reverse'>Home</a>
+		</div>
+		<div data-role='content'>
+			<ul data-role='listview' data-inset='true'>
+				<li data-inline='true'><a href='tel:*170*3*2*3%23'
+					data-rel='external'>To subscribe To Monthly Data Social Data
+						Packages. </a></li>
+				<li data-inline='true'><a href='tel:*170*3*2*3%23'
+					data-rel='external'>To subscribe To Daily Data Social Data
+						Packages. </a></li>
+			</ul>
+		</div>
+		<div data-role='footer' data-position='fixed'></div>
+	</div>
+	<div data-role='page' id='L521' data-theme='c'>
+		<div data-role='header'>
+			<h1>Blackberry Unlimited</h1>
+			<a href='#home' data-icon='home' data-iconpos='notext'
+				data-direction='reverse'>Home</a>
+		</div>
+		<div data-role='content'>
+			<ul data-role='listview' data-inset='true'>
+				<li data-inline='true'><a href='tel:*170*5*2%23'
+					data-rel='external'>subscribe </a></li>
+			</ul>
+		</div>
+		<div data-role='footer' data-position='fixed'></div>
+	</div>
+	<div data-role='page' id='L521' data-theme='c'>
+		<div data-role='header'>
+			<h1>Blackberry Complete</h1>
+			<a href='#home' data-icon='home' data-iconpos='notext'
+				data-direction='reverse'>Home</a>
+		</div>
+		<div data-role='content'>
+			<ul data-role='listview' data-inset='true'>
+				<li data-inline='true'><a href='tel:*170*5*3*1%23'
+					data-rel='external'>subscribe </a></li>
+			</ul>
+		</div>
+		<div data-role='footer' data-position='fixed'></div>
+	</div>
+	<div data-role='page' id='L541' data-theme='c'>
+		<div data-role='header'>
+			<h1>Blackberry Social Unlimited</h1>
+			<a href='#home' data-icon='home' data-iconpos='notext'
+				data-direction='reverse'>Home</a>
+		</div>
+		<div data-role='content'>
+			<ul data-role='listview' data-inset='true'>
+				<li data-inline='true'><a href='tel:*170*5*4%23'
+					data-rel='external'>subscribe </a></li>
+			</ul>
+		</div>
+		<div data-role='footer' data-position='fixed'></div>
+	</div>
+	<div data-role='page' id='L61' data-theme='c'>
+		<div data-role='header'>
+			<h1>Mobile Broadband Services</h1>
+			<a href='#home' data-icon='home' data-iconpos='notext'
+				data-direction='reverse'>Home</a>
+		</div>
+		<div data-role='content'>
+			<ul data-role='listview' data-inset='true'>
+				<li data-inline='true'><a href='tel:*170*7*7*1%23'
+					data-rel='external'>Auto Renewal Data Plans. </a></li>
+				<li data-inline='true'><a href='tel:*170*7*7*2%23'
+					data-rel='external'>One time Subscription. </a></li>
+			</ul>
+		</div>
+		<div data-role='footer' data-position='fixed'></div>
+	</div>
+	<div data-role='page' id='L781' data-theme='c'>
+		<div data-role='header'>
+			<h1>Premium Number Plan</h1>
+			<a href='#home' data-icon='home' data-iconpos='notext'
+				data-direction='reverse'>Home</a>
+		</div>
+		<div data-role='content'>
+			<ul data-role='listview' data-inset='true'>
+				<li data-inline='true'><a href='tel:*170*7*8*1%23'
+					data-rel='external'>Premium Number Carry Forward Inquiry </a></li>
+				<li data-inline='true'><a href='tel:*170*7*8*2%23'
+					data-rel='external'>Premium Number Plan Inquiry </a></li>
+			</ul>
+		</div>
+		<div data-role='footer' data-position='fixed'></div>
+	</div>
+	<div data-role='page' id='L791' data-theme='c'>
+		<div data-role='header'>
+			<h1>PAYG</h1>
+			<a href='#home' data-icon='home' data-iconpos='notext'
+				data-direction='reverse'>Home</a>
+		</div>
+		<div data-role='content'>
+			<ul data-role='listview' data-inset='true'>
+				<li data-inline='true'><a href='tel:*170*7*9*1%23'
+					data-rel='external'>PAYG Subscription </a></li>
+				<li data-inline='true'><a href='tel:*170*7*9*2%23'
+					data-rel='external'>PAYG Cancellation </a></li>
+			</ul>
+		</div>
+		<div data-role='footer' data-position='fixed'></div>
+	</div>
+	<div data-role='page' id='L2111' data-theme='d'>
+		<div data-role='header'>
+			<h1>iPhone 4S Plans</h1>
+			<a href='#home' data-icon='home' data-iconpos='notext'
+				data-direction='reverse'>Home</a>
+		</div>
+		<div data-role='content'>
+			<ul data-role='listview' data-inset='true'>
+				<li data-inline='true'><a href='tel:*170*2*1*1*1%23'
+					data-rel='external'>Current data and Bonus Usage Inquiry </a></li>
+				<li data-inline='true'><a href='tel:*170*2*1*1*2%23'
+					data-rel='external'>Change bonus package </a></li>
+				<li data-inline='true'><a href='tel:*170*2*1*1*3%23'
+					data-rel='external'>Upgrade existing iPhone4S Pacakge </a></li>
+				<li data-inline='true'><a href='tel:*170*2*1*1*4%23'
+					data-rel='external'>Carried Over minutes Inquiry </a></li>
+			</ul>
+		</div>
+		<div data-role='footer' data-position='fixed'></div>
+	</div>
+	<div data-role='page' id='L2131' data-theme='d'>
+		<div data-role='header'>
+			<h1>iPhone5S Plans</h1>
+			<a href='#home' data-icon='home' data-iconpos='notext'
+				data-direction='reverse'>Home</a>
+		</div>
+		<div data-role='content'>
+			<ul data-role='listview' data-inset='true'>
+				<li data-inline='true'><a href='tel:*170*2*1*3*1%23'
+					data-rel='external'>Data Balance Inquiry </a></li>
+			</ul>
+		</div>
+		<div data-role='footer' data-position='fixed'></div>
+	</div>
+	<div data-role='page' id='L2211' data-theme='d'>
+		<div data-role='header'>
+			<h1>Samsung S4</h1>
+			<a href='#home' data-icon='home' data-iconpos='notext'
+				data-direction='reverse'>Home</a>
+		</div>
+		<div data-role='content'>
+			<ul data-role='listview' data-inset='true'>
+				<li data-inline='true'><a href='tel:*170*2*2*1*1%23'
+					data-rel='external'>Data Balance Inquiry </a></li>
+			</ul>
+		</div>
+		<div data-role='footer' data-position='fixed'></div>
+	</div>
+	<div data-role='page' id='L2221' data-theme='d'>
+		<div data-role='header'>
+			<h1>Samsung S4 Active</h1>
+			<a href='#home' data-icon='home' data-iconpos='notext'
+				data-direction='reverse'>Home</a>
+		</div>
+		<div data-role='content'>
+			<ul data-role='listview' data-inset='true'>
+				<li data-inline='true'><a href='tel:*170*2*2*2*1%23'
+					data-rel='external'>Data Balance Inquiry </a></li>
+			</ul>
+		</div>
+		<div data-role='footer' data-position='fixed'></div>
+	</div>
+	<div data-role='page' id='L2241' data-theme='d'>
+		<div data-role='header'>
+			<h1>Samsung S3 LTE</h1>
+			<a href='#home' data-icon='home' data-iconpos='notext'
+				data-direction='reverse'>Home</a>
+		</div>
+		<div data-role='content'>
+			<ul data-role='listview' data-inset='true'>
+				<li data-inline='true'><a href='tel:*170*2*2*4*1%23'
+					data-rel='external'>Data Balance Inquiry </a></li>
+			</ul>
+		</div>
+		<div data-role='footer' data-position='fixed'></div>
+	</div>
+	
+
+<script type="text/javascript" src="cordova.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
